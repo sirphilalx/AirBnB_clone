@@ -2,7 +2,7 @@
 
 ## _An airbnb clone_
 
-![](https://github.com/dukeofhazardz/AirBnB_clone/blob/master/assets/HolbertonBNB.png)
+![](https://github.com/sirphilalx/AirBnB_clone/blob/master/assets/HolbertonBNB.png)
 
 ## Description 🏘️
 
