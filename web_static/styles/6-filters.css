@@ -75,3 +75,21 @@ button:hover {
 .amenities:hover .popover {
   display: block;
 }
+.container .places {
+  font-size: 30px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+.container .places .place {
+  display: flex;
+  text-align: center;
+}
+.container .places article {
+  width: 390px;
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px;
+  border: #ff5a5f 1px solid;
+  border-radius: 4px;
+}
