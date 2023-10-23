@@ -1,0 +1,36 @@
+.price_by_night {
+  color: #ff5a5f;
+  min-width: 60px;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  border: #ff5a5f 4px solid;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.information {
+  height: 80px;
+  border-top: hsl(0, 0%, 87%) 1px solid;
+  border-bottom: hsl(0, 0%, 87%) 1px solid;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 20px 0;
+  padding: 10px;
+}
+
+.max-guest {
+  width: 100px;
+}
+.user,
+.description {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.user .bold {
+  font-weight: bold;
+}

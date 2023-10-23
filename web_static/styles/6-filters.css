@@ -27,8 +27,8 @@ button:hover {
   opacity: 90%;
 }
 
-.locations,
-.amenities {
+.container .locations,
+.container .amenities {
   height: 100%;
   width: 25%;
   display: flex;
@@ -38,17 +38,17 @@ button:hover {
   position: relative;
 }
 
-.locations {
+.container .locations {
   border-right: #dddddd 1px solid;
 }
 
-.locations h3,
-.amenities h3 {
+.container.locations h3,
+.container .amenities h3 {
   font-weight: 600;
 }
 
-.locations h4,
-.amenities h4 {
+.container .locations h4,
+.container .amenities h4 {
   font-weight: 400;
   font-size: 14px;
 }
@@ -77,15 +77,15 @@ button:hover {
 }
 .container .places {
   font-size: 30px;
-  text-align: left;
+  text-align: center;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   margin-top: 20px;
 }
-.container .places .place {
+/* .container .places .place {
   display: flex;
   text-align: center;
-}
+} */
 .container .places article {
   width: 390px;
   font-size: 30px;
@@ -93,41 +93,4 @@ button:hover {
   margin: 20px;
   border: #ff5a5f 1px solid;
   border-radius: 4px;
-}
-
-.price_by_night {
-  color: #ff5a5f;
-  min-width: 60px;
-  width: 60px;
-  height: 60px;
-  font-size: 30px;
-  border: #ff5a5f 4px solid;
-  border-radius: 50%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-}
-
-.information {
-  height: 80px;
-  border-top: #ddd 1px solid;
-  border-bottom: hsl(0, 0%, 87%) 1px solid;
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0 20px 0;
-  padding: 10px;
-}
-
-.max-guest {
-  width: 100px;
-}
-.user,
-.description {
-  text-align: left;
-  margin-top: 20px;
-}
-
-.user .bold {
-  font-weight: bold;
 }

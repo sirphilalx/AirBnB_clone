@@ -1,0 +1,4 @@
+section.places {
+  display: flex;
+  flex-flow: wrap;
+}
